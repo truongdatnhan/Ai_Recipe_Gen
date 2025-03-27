@@ -1,12 +1,66 @@
-# React + Vite
+# AI Recipe Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Recipe Generator is a web application that leverages artificial intelligence to generate unique and personalized recipes based on user inputs. The project utilizes [shadcn/ui](https://ui.shadcn.com/) for its user interface components, ensuring a sleek and responsive design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **AI-Powered Recipe Generation**: Input ingredients or preferences to receive customized recipes.
+- **User-Friendly Interface**: Built with [shadcn/ui](https://ui.shadcn.com/) components for a modern and accessible user experience.
+- **Real-Time Updates**: Experience instantaneous feedback and updates as you interact with the application.
 
-## Expanding the ESLint configuration
+## Built With
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [**Shadcn/UI**](https://ui.shadcn.com/)
+- [**React**](https://react.dev/)
+- [**Express**](https://expressjs.com/)
+- [**Vite**](https://vitejs.dev/)
+
+## Getting Started
+
+Follow these steps to set up and run the project locally:
+
+### Prerequisites
+
+- **Node.js**: Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. **Clone the Repository**
+   ```
+   git clone https://github.com/truongdatnhan/Ai_Recipe_Gen.git
+   ```
+2. **Navigate to the Project Directory**
+   ```
+   cd Ai_Recipe_Gen
+   ```
+3. **Install Dependencies for Backend and Frontend**
+   ```
+   # Install backend dependencies
+   cd backend
+   npm install
+     
+   # Install frontend dependencies
+   cd ../
+   npm install
+   ```
+
+### Run the Application
+
+1. **Start the Backend Server**
+   ```
+   cd backend
+   npm start
+   ```
+2. **Start the Frontend Client**
+   ```
+   cd ../
+   npm run dev
+   ```
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
+
+## License
+
+This project is licensed under the MIT License.
